@@ -1,8 +1,7 @@
 import React from 'react';
 
 export default props => (
-    <div className="card" id="card">
-        <div className="card-header">View To-Dos</div>
+    
         <div className="card-body">
             <label className="form-label">Description</label>
             <textarea className="update-todo-text form-control" rows="5"></textarea>
@@ -15,5 +14,5 @@ export default props => (
             </select>
             <button className="update-todo btn btn-success" type="button" name="button">Save</button>
         </div>
-    </div>
+    
 );
