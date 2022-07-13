@@ -1,6 +1,6 @@
 import TodoList from './todolist';
 import ViewTodoDefault from './viewtododefault';
-import EditTodo from './edittodo';
+
 
 import React, { Component } from 'react';
 
