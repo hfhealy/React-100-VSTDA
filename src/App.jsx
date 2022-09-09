@@ -107,7 +107,7 @@ class App extends Component {
         <hr/>
         <div className='row'>
           <div className='col-sm-4'>
-            <div className="card" id="card">
+            <div className="card mt-1" id="card">
             <div className="card-header">Add New To-Do</div>
               <div className="card-body">
                 <label className="form-label">I want to...</label>
@@ -125,7 +125,7 @@ class App extends Component {
           </div>
           
           <div className='col-sm-8'>
-          <div className="card" id="card">
+          <div className="card mt-1" id="card">
             <div className="card-header">View To-Dos</div>
             <ul style={{listStyle: "none"}} className="ml-auto">
               {
